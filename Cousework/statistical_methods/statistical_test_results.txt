@@ -1,0 +1,222 @@
+Statistical Test Results
+
+Sharpe Ratios:
+Phase 1:
+  PT2 Sharpe: [ 5.74490259  8.50573169 25.05318253 32.60049199 31.9744791  43.81374924]
+  PT1 Sharpe: [5.90391483 5.90928156 3.4735322  6.45668563 3.59715892 3.83224216]
+
+Phase 2:
+  PT2 Sharpe: [21.36519316 23.21886292 30.2046819  39.841462   15.49345279 32.78570682
+ 44.6702798  29.56769279 15.89811987 36.22244201 20.28858727 12.37421752
+ 20.38816493]
+  PT1 Sharpe: [4.3742478  1.87972178 7.94314905 3.28937117 6.99214845 2.79284563
+ 5.56634407 5.14713231 6.01796937 6.46219946 2.96255436 2.95853672
+ 6.59099456]
+
+Profit Per Trade:
+Phase 1:
+  PT2 PPT: [0.0097366  0.00972988 0.00976984 0.00977938 0.00979982 0.00976104]
+  PT1 PPT: [0.00820334 0.00810319 0.00801097 0.0082162  0.00815182 0.00789424]
+
+Phase 2:
+  PT2 PPT: [0.01057054 0.00719242 0.01267278 0.00979594 0.01221597 0.00929674
+ 0.01106903 0.01144835 0.01223924 0.01180362 0.00884112 0.00861728
+ 0.01167537]
+  PT1 PPT: [0.00864114 0.00672451 0.00907002 0.00824315 0.00920874 0.00763857
+ 0.00860541 0.00865948 0.00856183 0.00907439 0.00814481 0.00776637
+ 0.00848209]
+
+ #################### phase1 #################### 
+
+**************** LAST_BAL ****************
+
+======= Mean =======
+Normality check done for mean last_bal
+Statistical tests done for mean last_bal
+
+======= Standard Deviation =======
+Normality check done for std last_bal
+Statistical tests done for std last_bal
+
+======= Mean Absolute Deviation =======
+Normality check done for MAD last_bal
+Statistical tests done for MAD last_bal
+
+======= Median =======
+Normality check done for median last_bal
+Statistical tests done for median last_bal
+
+======= Mode =======
+Normality check done for mode last_bal
+Statistical tests done for mode last_bal
+
+======= Confidence Interval Width =======
+CI width comparison done for last_bal
+
+======= Inter-Quartile Ranges =======
+IQR comparison done for last_bal
+
+**************** MAX_PROF ****************
+
+======= Mean =======
+Normality check done for mean max_prof
+Statistical tests done for mean max_prof
+
+======= Standard Deviation =======
+Normality check done for std max_prof
+Statistical tests done for std max_prof
+
+======= Mean Absolute Deviation =======
+Normality check done for MAD max_prof
+Statistical tests done for MAD max_prof
+
+======= Median =======
+Normality check done for median max_prof
+Statistical tests done for median max_prof
+
+======= Mode =======
+Normality check done for mode max_prof
+Statistical tests done for mode max_prof
+
+======= Confidence Interval Width =======
+CI width comparison done for max_prof
+
+======= Inter-Quartile Ranges =======
+IQR comparison done for max_prof
+
+**************** N_TRADES ****************
+
+======= Mean =======
+Normality check done for mean n_trades
+Statistical tests done for mean n_trades
+
+======= Standard Deviation =======
+Normality check done for std n_trades
+Statistical tests done for std n_trades
+
+======= Mean Absolute Deviation =======
+Normality check done for MAD n_trades
+Statistical tests done for MAD n_trades
+
+======= Median =======
+Normality check done for median n_trades
+Statistical tests done for median n_trades
+
+======= Mode =======
+Normality check done for mode n_trades
+Statistical tests done for mode n_trades
+
+======= Confidence Interval Width =======
+CI width comparison done for n_trades
+
+======= Inter-Quartile Ranges =======
+IQR comparison done for n_trades
+
+########## Scenario-Specific ###########
+************ Wilcoxon or T-test **************
+======= last_bal =======
+[('BTC-USD-20250404-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250414-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250211-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250210-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250405-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250406-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True)]
+
+======= max_prof =======
+[('BTC-USD-20250404-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250414-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250211-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250210-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250405-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250406-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True)]
+
+======= n_trades =======
+[('BTC-USD-20250404-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250414-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250211-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250210-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250405-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True), ('BTC-USD-20250406-1D-A20-0', 'wilcoxon', 124750.0, '0.000000', True)]
+
+ #################### phase2 #################### 
+
+**************** LAST_BAL ****************
+
+======= Mean =======
+Normality check done for mean last_bal
+Statistical tests done for mean last_bal
+
+======= Standard Deviation =======
+Normality check done for std last_bal
+Statistical tests done for std last_bal
+
+======= Mean Absolute Deviation =======
+Normality check done for MAD last_bal
+Statistical tests done for MAD last_bal
+
+======= Median =======
+Normality check done for median last_bal
+Statistical tests done for median last_bal
+
+======= Mode =======
+Normality check done for mode last_bal
+Statistical tests done for mode last_bal
+
+======= Confidence Interval Width =======
+CI width comparison done for last_bal
+
+======= Inter-Quartile Ranges =======
+IQR comparison done for last_bal
+
+**************** MAX_PROF ****************
+
+======= Mean =======
+Normality check done for mean max_prof
+Statistical tests done for mean max_prof
+
+======= Standard Deviation =======
+Normality check done for std max_prof
+Statistical tests done for std max_prof
+
+======= Mean Absolute Deviation =======
+Normality check done for MAD max_prof
+Statistical tests done for MAD max_prof
+
+======= Median =======
+Normality check done for median max_prof
+Statistical tests done for median max_prof
+
+======= Mode =======
+Normality check done for mode max_prof
+Statistical tests done for mode max_prof
+
+======= Confidence Interval Width =======
+CI width comparison done for max_prof
+
+======= Inter-Quartile Ranges =======
+IQR comparison done for max_prof
+
+**************** N_TRADES ****************
+
+======= Mean =======
+Normality check done for mean n_trades
+Statistical tests done for mean n_trades
+
+======= Standard Deviation =======
+Normality check done for std n_trades
+Statistical tests done for std n_trades
+
+======= Mean Absolute Deviation =======
+Normality check done for MAD n_trades
+Statistical tests done for MAD n_trades
+
+======= Median =======
+Normality check done for median n_trades
+Statistical tests done for median n_trades
+
+======= Mode =======
+Normality check done for mode n_trades
+Statistical tests done for mode n_trades
+
+======= Confidence Interval Width =======
+CI width comparison done for n_trades
+
+======= Inter-Quartile Ranges =======
+IQR comparison done for n_trades
+
+########## Scenario-Specific ###########
+************ Wilcoxon or T-test **************
+======= last_bal =======
+[('BTC-USD-20250211', 'wilcoxon', 124748.0, '0.000000', True), ('BTC-USD-20250211-1D-77207-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-510510-0', 'wilcoxon', 19848.0, '0.000000', True), ('BTC-USD-20250211-1D-551010-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-55510-0', 'wilcoxon', 19720.0, '0.000000', True), ('BTC-USD-20250211-1D-20777-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-101055-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-105510-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-77720-0', 'wilcoxon', 19721.0, '0.000000', True), ('BTC-USD-20250211-1D-51055-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-55105-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-105105-0', 'wilcoxon', 20100.0, '0.000000', True), ('BTC-USD-20250211-1D-72077-0', 'wilcoxon', 19900.0, '0.000000', True)]
+
+======= max_prof =======
+[('BTC-USD-20250211', 'wilcoxon', 124749.0, '0.000000', True), ('BTC-USD-20250211-1D-77207-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-510510-0', 'wilcoxon', 19852.0, '0.000000', True), ('BTC-USD-20250211-1D-551010-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-55510-0', 'wilcoxon', 19725.0, '0.000000', True), ('BTC-USD-20250211-1D-20777-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-101055-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-105510-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-77720-0', 'wilcoxon', 19775.5, '0.000000', True), ('BTC-USD-20250211-1D-51055-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-55105-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-105105-0', 'wilcoxon', 20100.0, '0.000000', True), ('BTC-USD-20250211-1D-72077-0', 'wilcoxon', 19900.0, '0.000000', True)]
+
+======= n_trades =======
+[('BTC-USD-20250211', 'wilcoxon', 124748.0, '0.000000', True), ('BTC-USD-20250211-1D-77207-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-510510-0', 'wilcoxon', 2529.0, '1.000000', False), ('BTC-USD-20250211-1D-551010-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-55510-0', 'wilcoxon', 15735.0, '0.000000', True), ('BTC-USD-20250211-1D-20777-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-101055-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-105510-0', 'wilcoxon', 19899.0, '0.000000', True), ('BTC-USD-20250211-1D-77720-0', 'wilcoxon', 6014.5, '0.999999', False), ('BTC-USD-20250211-1D-51055-0', 'wilcoxon', 19708.5, '0.000000', True), ('BTC-USD-20250211-1D-55105-0', 'wilcoxon', 19900.0, '0.000000', True), ('BTC-USD-20250211-1D-105105-0', 'wilcoxon', 20100.0, '0.000000', True), ('BTC-USD-20250211-1D-72077-0', 'wilcoxon', 19897.0, '0.000000', True)]
+

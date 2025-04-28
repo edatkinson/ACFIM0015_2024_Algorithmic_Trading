@@ -1,0 +1,57 @@
+# scenario_config.yaml
+
+# File input
+price_offset_filename: "MarketData/offset_BTC_USD_20250211.csv"
+chart_name: "BTC-USD-20250211-1D-551010"  # Used as prefix for scenario_id
+
+# Market run parameters
+days: 1                     # 10 Days of trading (10 days)
+start_time: 0                  # Constant
+hours: 24                     # Constant
+end_time: 86400               # 86400 for seconds in a day or 1440 for mins in a day  60 * 24 * 1000 (num minutes in 1000 days)
+order_interval: 10              # Constant
+step_mode: "random"             # Constant
+time_mode: "drip-poisson"       #Constant
+scenario_index: 0              # Used for generating scenario_id
+
+# Traders setup
+sellers_spec:
+  - ["ZIP", 5]
+  - ["ZIC", 5]
+  - ["SHVR", 10]
+  - ["GVWY", 10]
+
+buyers_spec:
+  - ["ZIP", 5]
+  - ["ZIC", 5]
+  - ["SHVR", 10]
+  - ["GVWY", 10]
+
+proptraders_spec:
+  - ["PT1", 1, {"bid_percent": 0.95, "ask_delta": 7}]
+  - ["PT2", 1, {"n_past_trades": 25, "spread": 1, "EMA_short": 12, "EMA_long": 24, max_inv: 5, profit_perc: 1.05, "stop_loss": 0.9, "liquidate": 0}]
+
+# Dump flags
+dump_flags:
+  dump_blotters: true
+  dump_lobs: False
+  dump_strats: False
+  dump_avgbals: true
+  dump_tape: true
+
+# Supply and demand chart range configuration
+chart_range:
+  supply:
+    min_price: 75
+    max_price: 120
+
+  demand:
+    min_price: 125
+    max_price: 90
+
+# Logging & IDs
+verbose: false
+logg_id: "5_of_each_trader"
+
+num_sessions: 100
+
