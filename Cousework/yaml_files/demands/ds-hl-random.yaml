@@ -54,5 +54,5 @@ chart_range:
 verbose: false
 logg_id: "5_of_each_trader"
 
-num_sessions: 100
+num_sessions: 200
 
