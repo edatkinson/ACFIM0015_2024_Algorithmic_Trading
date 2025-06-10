@@ -12,7 +12,7 @@ Inside coursework the following pipline is used for HPC;
    5) getData class gets the avgBals data for PT1 and PT2 efficiently, as we analyse up to 50,000,000 lines per scenario.
    6) AvgBalAnalyser class computes statistics on the data preprocessed from getData - uses lazy computation of class attributes for efficiency.
 4) `run_session.py` is the main function which sets up a scenario using a yaml file as input, this feeds all the parameters in to the setupscenario class and runs single scenatio in BSE for those parameters. 
-   1) Made to be replicable so HPC can do many of these with different YAML files in array job
+   1) Made to be repeatable so HPC can do many of these with different YAML files in array job
 5) `run_array.sh` runs scenarios for the folders in yaml_folders, change the number of tasks depending on how many yaml files you have as this cycles through the yaml files and runs `run_session.py` for each one.
 6) `get_stats.sh` uses `analyse_performance.py` to get all the statistics, using command line flags to control where you want the output to be written to, and also the name of the file. 
 7) Inside the `statistical_methods` directory, all the csv files are proof of all simulations I have done as they contain the outputted data for each scenario. Then `statistical_tests.py` processess this information and runs all the stats etc for the results. These include box plots, statistical tests (Wilcoxon, t-test, shapiro-wilks etc).
