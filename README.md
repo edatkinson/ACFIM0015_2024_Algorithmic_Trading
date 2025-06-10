@@ -1,7 +1,6 @@
 # AlgoTrading
 Supporting code for Algorithmic Trading Coursework
 
-
 Inside coursework the following pipline is used for HPC;
 1) Trader is in BSEv1.9
 2) All parameters for BSE are in `yaml_files` folder. 
@@ -17,4 +16,6 @@ Inside coursework the following pipline is used for HPC;
 5) `run_array.sh` runs scenarios for the folders in yaml_folders, change the number of tasks depending on how many yaml files you have as this cycles through the yaml files and runs `run_session.py` for each one.
 6) `get_stats.sh` uses `analyse_performance.py` to get all the statistics, using command line flags to control where you want the output to be written to, and also the name of the file. 
 7) Inside the `statistical_methods` directory, all the csv files are proof of all simulations I have done as they contain the outputted data for each scenario. Then `statistical_tests.py` processess this information and runs all the stats etc for the results. These include box plots, statistical tests (Wilcoxon, t-test, shapiro-wilks etc).
+
+The `final_report.pdf` achieved 75/100. Feedback: Profit-Per-Trade is not as important as the reasons why my trader can secure more trades than PT1. 
 
