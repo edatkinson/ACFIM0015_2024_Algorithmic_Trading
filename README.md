@@ -18,4 +18,5 @@ Inside coursework the following pipline is used for HPC;
 7) Inside the `statistical_methods` directory, all the csv files are proof of all simulations I have done as they contain the outputted data for each scenario. Then `statistical_tests.py` processess this information and runs all the stats etc for the results. These include box plots, statistical tests (Wilcoxon, t-test, shapiro-wilks etc).
 
 The `final_report.pdf` achieved 75/100. Feedback: Profit-Per-Trade is not as important as the reasons why my trader can secure more trades than PT1. 
+The maximum grade for the year is 76/100, only 7/52 people achieved >70. 
 
